@@ -1,0 +1,33 @@
+py lib 0.9.1: bugfix release
+=============================
+
+Welcome to the 0.9.1 py lib release - a library aiming to 
+support agile and test-driven python development on various levels.
+
+This is mostly a bugfix release, with a couple of new features sneaked in.
+Most important changes:
+
+* reduced the number of threads used in py.execnet
+* some new functionality (authentication, export, locking) in py.path's
+  Subversion APIs
+* stability and segfault fixes in execnet
+* numerous small fixes in py.test's rsession (experimental pluggable session)
+  and generative test features
+* some fixes in the py.test core
+* added py.misc.killproc, which allows killing processes on (some flavours of)
+  Windows and UNIX
+
+For a complete list of changes, see doc/changes-0.9.1.txt in the source
+package.
+
+Download/Install:   http://codespeak.net/py/0.9.1/download.html
+Documentation/API:  http://codespeak.net/py/0.9.1/index.html
+
+Work on the py lib has been partially funded by the 
+European Union IST programme and by http://merlinux.de 
+within the PyPy project.
+
+best, have fun and let us know what you think!
+
+holger krekel, Maciej Fijalkowski, 
+Carl Friedrich Bolz, Guido Wesdorp
